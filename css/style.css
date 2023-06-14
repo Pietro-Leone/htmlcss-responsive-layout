@@ -81,6 +81,7 @@ nav a {
 
 .section {
     padding: 2rem 1rem;
+    justify-content: center;
 }
 
 /* Prima Sezione */
@@ -297,7 +298,7 @@ nav a {
     padding: .5rem 2.5rem;
 }
 
-/* Sezione 5 */
+/* Quinta Sezione */
 
 .about-us,
 .about {
@@ -347,7 +348,47 @@ nav a {
     margin: 2rem 0;
 }
 
-/* Sezione 6 */
+/* Sesta Sezione */
+
+.section-get-started {
+    background-color: var(--secondary-color);
+}
+
+.container-section-get-started {
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    max-width: 530px;
+}
+
+.section-get-started button {
+    background-color: white;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 1rem 3.5rem;
+}
+
+.section-get-started strong {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.section-get-started h2 {
+    font-size: 3rem;
+    color: #fdc15f;
+}
+
+.section-get-started p {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.section-get-started a {
+    color: white;
+}
 
 /* Footer */
 

@@ -297,6 +297,58 @@ nav a {
     padding: .5rem 2.5rem;
 }
 
+/* Sezione 5 */
+
+.about-us,
+.about {
+    padding: 1rem;
+}
+
+.about-us h2 {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+.about-us p {
+    padding: 1rem 0;
+    max-width: 600px;
+    line-height: 2rem;
+}
+
+.pic-about-us {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/about.jpg);
+}
+
+.pic-about-us i {
+    position: absolute;
+    color: var(--secondary-color);
+    font-size: 4rem;
+    right: 0;
+}
+
+.about button {
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+}
+
+.about h3 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+/* Sezione 6 */
+
 /* Footer */
 
 /* Media Query */
@@ -347,6 +399,14 @@ nav a {
     .benefits-box {
         margin: 0;
         width: calc(50% - 2rem);
+    }
+
+    .section-about-us {
+        display: flex;
+    }
+
+    .about {
+        max-width: 250px;
     }
 }
 
@@ -438,5 +498,10 @@ nav a {
 
     .benefits-box {
         width: calc((100% / 3) - 2rem);
+    }
+
+    .section-about-us {
+        max-width: 1200px;
+        margin: auto;
     }
 }

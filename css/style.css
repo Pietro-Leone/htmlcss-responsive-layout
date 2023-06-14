@@ -191,7 +191,61 @@ nav a {
     padding: 15px 18px;
     border-radius: 50%;
     background-color: var(--secondary-color);
-    font-weight: bolder;
+}
+
+.col-right button i {
+    font-size: large;
+}
+
+/* Terza Sezione */
+
+.section-testimonials {
+    text-align: center;
+}
+
+.section-testimonials h2 {
+    margin: 1rem 0;
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+
+.section-testimonials p {
+    margin: 0 2rem;
+}
+
+.cards {
+    background-color: var(--secondary-color);
+    margin: 2rem 1rem 0 1rem;
+    padding: 2rem;
+    border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.cards p {
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.testimonial-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.nat-pic {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.celia-pic {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+.bob-pic {
+    background-image: url(../img/testimonial3.jpg);
 }
 
 /* Footer */
@@ -222,6 +276,16 @@ nav a {
 
     .col-left h2 {
         font-size: 5rem;
+    }
+
+    .cards {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .cards p,
+    .cards strong {
+        padding-left: 2rem;
     }
 }
 
@@ -303,5 +367,10 @@ nav a {
     .col-left img {
         width: 80%;
         margin: 100px 0;
+    }
+
+    .section-testimonials {
+        max-width: 1200px;
+        margin: auto;
     }
 }

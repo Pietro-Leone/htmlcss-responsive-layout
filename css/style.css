@@ -28,7 +28,7 @@ header {
 /* Nav */
 
 nav {
-    padding: 1rem;
+    padding: 1rem 2rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -52,7 +52,7 @@ nav ul {
     display: none;
     position: absolute;
     list-style: none;
-    left: calc(-100vw + 16px + 21px);
+    left: calc(-100vw + 21px + 2rem);
     top: 40px;
     background-color: var(--main-color);
     padding: 1rem;
@@ -392,6 +392,26 @@ nav a {
 
 /* Footer */
 
+footer {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    max-width: 423px;
+}
+
+.footer p {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer a {
+    color: var(--secondary-color);
+}
+
 /* Media Query */
 
 @media screen and (min-width: 650px) {
@@ -451,7 +471,7 @@ nav a {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1215px) {
 
     /* Nav */
 
